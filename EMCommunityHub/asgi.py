@@ -1,5 +1,5 @@
 """
-ASGI config for eagle_mountain_com_hub project.
+ASGI config for EMCommunityHub project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'eagle_mountain_com_hub.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'EMCommunityHub.settings')
 
 application = get_asgi_application()

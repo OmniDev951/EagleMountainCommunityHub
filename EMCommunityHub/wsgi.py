@@ -1,5 +1,5 @@
 """
-WSGI config for eagle_mountain_com_hub project.
+WSGI config for EMCommunityHub project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'eagle_mountain_com_hub.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'EMCommunityHub.settings')
 
 application = get_wsgi_application()
