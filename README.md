@@ -25,3 +25,5 @@ mywebsite/                # Project Root Directory
 │   └── urls.py           # App URL patterns (you create this)
 └── templates/            # Optional: Global templates folder (best practice for shared layouts)
     └── base.html
+
+Follow file strcuture while developing
